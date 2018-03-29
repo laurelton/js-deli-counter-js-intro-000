@@ -1,7 +1,7 @@
 var takeANumber = function(line, name) {
   line.push(name);
 
-  return `Welcome, ${name[length - 1]}. You are number ${line.length} in line.`;
+  return `Welcome, ${line[length - 1]}. You are number ${line.length} in line.`;
 };
 
 var nowServing = function() {};
